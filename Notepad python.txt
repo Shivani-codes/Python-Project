@@ -1,0 +1,37 @@
+import pyttsx3
+import os
+
+# pyttsx3.speak("Welcome to my tools")
+
+
+while True:
+	print("chat with me with your requirements : "  , end='')
+	p = input()
+
+	# print(p)
+	# os.system(p)
+
+	if ("launch" in p)  and ("Explorer" in p):
+	  os.system("Explorer")
+
+	elif (("run" in p) or  ("launch" in p )) and  (("notepad" in p) or ("editor" in p) ) :
+	  os.system("notepad")
+
+	elif ("run" in p)  and ("player" in p) and ("media" in p):
+	  os.system("wmplayer")
+
+	elif  ("exit" in p)  or ("quit" in p):
+	  break
+
+	else:
+	  print("dont support")
+
+       if("run" in p) and ("Tableau in p):
+       os.system("Tableau)
+
+       elif ("quit"):
+      break
+      
+      else:
+       print("dont support")
+       
